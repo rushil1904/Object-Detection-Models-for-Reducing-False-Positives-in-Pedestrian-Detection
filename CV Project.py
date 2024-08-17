@@ -193,7 +193,7 @@ drive.mount('/content/drive')
 #https://colab.research.google.com/drive/1gDZ2xcTOgR39tGGs-EZ6i3RTs16wmzZQ?usp=sharing
 
 from roboflow import Roboflow
-rf = Roboflow(api_key="sCiEG4D4q6rqh5iTcyJA")
+rf = Roboflow(api_key="####")
 project = rf.workspace().project("pedestrian-detection-wnwek")
 model = project.version(1).model
 
